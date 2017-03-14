@@ -275,6 +275,6 @@ loop do
     proxy.restart unless proxy.working?
   end
 
-  $logger.info "sleeping for 60 seconds"
-  sleep 60
+  $logger.info "sleeping for 300 seconds"
+  sleep 300
 end
